@@ -1,0 +1,169 @@
+/* Link font */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+/* Códigos Daniel */
+/* Estilo para tema claro */
+body.light-theme {
+    background-color: rgb(248, 244, 244);
+    color: black;
+}
+
+/* Estilo para tema oscuro */
+body.dark-theme {
+    background-color: rgb(32, 32, 32);
+    color: white;
+}
+
+/* Estilo para enlaces en tabla de contenido */
+#table-of-contents a {
+    color: #333; /* Color para el tema claro */
+    text-decoration: none; /* Elimina el subrayado */
+    transition: color 0.3s; /* Agrega una transición suave para el color */
+}
+
+/* Hover en tema claro */
+body.light-theme #table-of-contents a:hover {
+    color: #007bff; /* Color al pasar el mouse en tema claro */
+    text-decoration: underline; /* Subrayado en hover */
+}
+
+/* Estilo para enlaces en modo oscuro */
+body.dark-theme #table-of-contents a {
+    color: #ddd; /* Color para el tema oscuro */
+}
+
+/* Hover en tema oscuro */
+body.dark-theme #table-of-contents a:hover {
+    color: #66b3ff; /* Color al pasar el mouse en tema oscuro */
+    text-decoration: underline; /* Subrayado en hover */
+}
+
+#back-to-top {
+    position: fixed;
+    bottom: 20px; /* Distancia desde el fondo de la página */
+    right: 20px; /* Distancia desde el lado derecho */
+    display: none; /* Oculto por defecto */
+    z-index: 1000; /* Asegúrate de que esté por encima de otros elementos */
+}
+
+
+
+/* Header */
+.container-header {
+    height: auto;
+    max-width: 100%;
+}
+
+.container-header ul {
+    height: 60px !important;
+    width: 100vw;
+    justify-content: center;
+    gap: 2%;
+}
+
+.container-header .navbar-nav .container-maestria,
+.container-header .navbar-nav .container-utec {
+    width: 15%;
+}
+
+.container-header .navbar-nav .nav-item img {
+    width: 100%;
+    height: auto;
+}
+
+.container-header .navbar-nav .nav-item .img-bandera-inglesa,
+.container-header .navbar-nav .nav-item .img-bandera-española {
+    width: auto;
+}
+
+.container-header .navbar-nav .nav-item .img-bandera-inglesa {
+    height: 65%;
+}
+
+.container-header .navbar-nav .nav-item .img-bandera-española {
+    margin-top: 1px;
+    height: 69%;
+}
+
+
+/* Main */
+.container-main h2  {
+    color: rgb(141, 17, 17);
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.container-main h4{
+    color: white;
+    width: 35%;
+    margin: auto;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: rgb(109, 23, 23);
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:weight;
+    font-style: normal;
+}
+
+.container-main .info-especializaciones div{
+    border: 1px solid rgb(190, 189, 189);
+    border-radius: 15px;
+    width: 70%;
+    margin: auto;
+    padding-top: 15px;
+    
+}
+
+.container-main .info-especializaciones li{  
+    list-style: none;
+}
+
+
+.container-main .card-cursos .card{
+    width: 35%;
+}
+
+.container-main .cards-info-universidad div{
+    max-width: 100%;
+    border-bottom: 5px solid rgb(202, 202, 202);
+}
+
+/* Footer */
+
+.container-footer .oficinas-uni h5{
+    font-size: 17px;
+}
+
+.container-footer li{
+    list-style: none;
+}
+
+.container-footer h4, h5{
+    color: rgb(119, 25, 25);
+}
+
+.container-footer .footer-info a{
+    color: rgb(119, 25, 25);
+    text-decoration: none;
+}
+
+.container-footer .footer-info i{
+    color: rgb(97, 97, 97);
+    font-size: 22px;
+}
+
+.container-footer .horarios-atencion{
+    border: 1px solid rgb(179, 179, 179);
+    width: 60%;
+    border-radius: 50px;
+    margin: auto;
+}
+
+
+
+
+
+
