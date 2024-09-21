@@ -41,7 +41,7 @@ body.dark-theme #table-of-contents a:hover {
 #back-to-top {
     position: fixed;
     bottom: 20px; /* Distancia desde el fondo de la página */
-    right: 20px; /* Distancia desde el lado derecho */
+    right: 30px; /* Distancia desde el lado derecho */
     display: none; /* Oculto por defecto */
     z-index: 1000; /* Asegúrate de que esté por encima de otros elementos */
 }
@@ -162,6 +162,23 @@ body.dark-theme #table-of-contents a:hover {
     margin: auto;
 }
 
+@media screen and (max-width: 480px) {
+    .container-main {
+        margin-left: 15px;
+        margin-right: 15px;
+  }
+
+  .container-footer .horarios-atencion {
+    width: 100%;
+    padding: 15px;
+  }
+  .container-main h4 {
+    width: 100%;
+  }
+  .card {
+    margin-bottom: 12px !important;
+}
+}
 
 
 
